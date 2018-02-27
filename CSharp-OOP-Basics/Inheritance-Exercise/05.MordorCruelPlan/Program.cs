@@ -4,7 +4,16 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        string[] foods = Console.ReadLine().Split();
+
+        Gandalf gandalf = new Gandalf();
+
+        foreach (var food in foods)
+        {
+            gandalf.EatFood(food);
+        }
+
+        Console.WriteLine(gandalf);
     }
 }
 
