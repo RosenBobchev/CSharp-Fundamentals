@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-public class AggressiveDriver : Driver
+﻿public class AggressiveDriver : Driver
 {
     private const double FuelConsumption = 2.7;
 
